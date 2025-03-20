@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\about_page;
 use App\Models\books;
 use App\Models\carousel;
 use App\Models\footer;
@@ -30,12 +31,13 @@ class GeneralController extends Controller
 
     public function aboutus()
     {
+        $about = about_page::all(); // about explanations title and body
         $books = books::all(); // all books from book table
         $user_1 = User::find(1); // info of liz
         $user_2 = User::find(2); // info of scott
         $footer = footer::find(1); // terms and conditions for footer
 
-        return view('aboutus',compact('books','user_1','user_2','footer'));
+        return view('aboutus',compact('books','user_1','user_2','footer','about'));
     }
 
     public function login()
@@ -43,8 +45,4 @@ class GeneralController extends Controller
         return view('login');
     }
 
-    public function contactus()
-    {
-        return view('contactus');
-    }
 }

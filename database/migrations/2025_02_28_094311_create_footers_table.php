@@ -15,12 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('body');
-            $table->string('phone', 20)->unique();
             $table->string('email')->unique();
-            $table->string('address');
-            $table->string('facebook');
-            $table->string('instagram');
-            $table->string('twitter');
+            $table->text('facebook');
+            $table->text('instagram');
             $table->timestamps();
         });
     }

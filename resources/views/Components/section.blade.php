@@ -4,6 +4,6 @@
     <div class="hero-content">
         <h1>Deeply Well</h1>
         <h3>{{$slogan}}</h3>
-        <a href="/contactus" class="btn">Contact Us Now</a>
+        <a href="mailto:{{$email}}" class="btn">Contact Us Now</a>
     </div>
 </section>

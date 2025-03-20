@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BooksController;
 use App\Http\Controllers\CarouselController;
 use App\Http\Controllers\FooterController;
@@ -20,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[GeneralController::class,'home'] )->name('home');
 Route::get('/aboutus', [GeneralController::class,'aboutus'] );
-Route::get('/contactus', [GeneralController::class,'contactus']);
+
 
 //everty thing about posts
 
@@ -57,6 +58,9 @@ Route::patch('/footer',[FooterController::class,'update'])->middleware('auth');
 
 Route::get('/banner',[carouselController::class,'create'])->middleware('auth');
 Route::patch('/banner',[CarouselController::class,'update'])->middleware('auth');
+
+Route::get('/aboutedit',[AboutController::class,'create'])->middleware('auth');
+Route::patch('/aboutedit',[AboutController::class,'update'])->middleware('auth');
 
 
 Route::get('/book',[BooksController::class,'index'])->middleware('auth');

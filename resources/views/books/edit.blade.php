@@ -2,7 +2,7 @@
 
     <x-nav-bar-black></x-nav-bar-black>
 
-    <div class="flex items-center justify-center mb-16">
+    <div class="flex items-center justify-center mb-16 pt-5">
         <div class="bg-white shadow-xl border border-gray-200 rounded-lg p-6 md:p-8 max-w-5xl w-full">
             <h2 class="text-xl font-semibold text-gray-900">Information About Book</h2>
             <p class="text-gray-600 text-sm mb-4">Update The Book information.</p>

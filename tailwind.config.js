@@ -12,7 +12,11 @@ export default {
             ],
         theme: {
             extend: {
+
                 colors: {
+                  colors: {
+                    deeplywell: "#404c68",
+                  },
 
                 },
                 fontFamily: {

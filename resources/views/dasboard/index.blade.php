@@ -4,7 +4,7 @@
 
     </x-nav-bar-black>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-5">
         <x-dashboard-card>
             <x-slot:title>
                 Home Page
@@ -50,6 +50,19 @@
             </x-slot:explanation>
             <x-slot:link>
                 /book
+            </x-slot:link>
+
+        </x-dashboard-card>
+
+        <x-dashboard-card>
+            <x-slot:title>
+                About
+            </x-slot:title>
+            <x-slot:explanation>
+                Edit or update about page
+            </x-slot:explanation>
+            <x-slot:link>
+                /aboutedit
             </x-slot:link>
 
         </x-dashboard-card>
