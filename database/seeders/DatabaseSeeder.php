@@ -13,13 +13,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $path = database_path('seeders/database_backup.sql');
+        // Path to SQL file
+        $sqlFile = database_path('seeders/database_backup.sql');
 
-        if (File::exists($path)) {
-            DB::unprepared(File::get($path));
-            $this->command->info('Database backup successfully imported!');
-        } else {
-            $this->command->error('SQL file not found: ' . $path);
-        }
+        // Read file contents
+        $sql = File::get($sqlFile);
+
+        // Execute SQL queries
+        DB::unprepared($sql);
+
+        $this->command->info('Database seeding completed successfully.');
     }
 }
