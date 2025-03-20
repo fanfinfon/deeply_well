@@ -27,7 +27,7 @@ class BooksController extends Controller
 
         ]);
 
-        $books = posts::create([
+        $books = books::create([
           'title' => request('title'),
           'author'  => request('author'),
           'description' => request('description'),
