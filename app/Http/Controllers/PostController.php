@@ -38,7 +38,7 @@ class PostController extends Controller
           'title' => request('title'),
           'body'  => request('body'),
           'image' => request('image'),
-          'user_id' => Auth::user()
+          'user_id' => Auth::id(),
 
         ]);
         return redirect('/posts');
