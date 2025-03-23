@@ -99,7 +99,7 @@
             </div>
 
             <!-- Recommended Books Section -->
-            <div class="mt-24 pb-6">
+            <div class="mt-24 pb-14">
                 <h2 class="text-center text-2xl font-light text-gray-800 mb-2 tracking-wider">Recommended Books</h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -120,6 +120,8 @@
                     @endforeach
                 </div>
             </div>
+
+            <hr class="border-black pb-6">
 
 
             <x-about-description>
