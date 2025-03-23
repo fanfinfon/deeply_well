@@ -15,8 +15,8 @@ class FooterController extends Controller
           'title'=>'required',
             'body'=>'required',
             'email'=> ['required','email'],
-            'instagram'=> ['required'],
-          'facebook'=> ['required'],
+            'instagram'=> ['required','url'],
+          'facebook'=> ['required','url'],
         ]);
 
         footer::where('id',1)->update($attributes);

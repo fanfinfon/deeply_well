@@ -11,7 +11,7 @@ class CarouselController extends Controller
     public function update()
     {
         $attributes = request()->validate([
-          'image' => 'required' ,
+          'image' => ['required','url'] ,
         ]);
 
         carousel::find(1)->update($attributes);

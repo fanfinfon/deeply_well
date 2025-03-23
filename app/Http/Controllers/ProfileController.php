@@ -36,7 +36,7 @@ class ProfileController extends Controller
         $attributes = request()->validate([
           'phone' => ['required','max:20'],
           'about' => ['required',],
-          'profile_pic'=>['required'],
+          'profile_pic'=>['required','url'],
         ]);
 
         Auth::user()->update($attributes);

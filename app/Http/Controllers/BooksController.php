@@ -23,7 +23,8 @@ class BooksController extends Controller
           'title' => ['required', 'min:3', 'max:255'],
           'author' => ['required', 'min:3', 'max:255'],
           'description'  => 'required',
-          'link'=>'required',
+          'link'=>['required','url'],
+            'image'=> ['required','url'],
 
         ]);
 
@@ -53,7 +54,8 @@ class BooksController extends Controller
           'title' => ['required', 'min:3', 'max:255'],
           'author' => ['required', 'min:3', 'max:255'],
           'description'  => 'required',
-          'link'=>'required',
+          'link'=>['required','url'],
+          'image'=> ['required','url']
         ]);
 
         $book->update([
