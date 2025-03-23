@@ -48,13 +48,13 @@
                     <li>
                         <a class="text-gray-700 transition hover:text-gray-700/75" href="/aboutus"> About </a>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
 
         <p class="mt-12 text-center text-sm text-gray-500 lg:text-right">
-            Copyright &copy; 2022. All rights reserved.
+            Copyright &copy; {{date('Y')}}. All rights reserved.
         </p>
     </div>
 </footer>
