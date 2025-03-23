@@ -48,10 +48,7 @@
                     <li>
                         <a class="text-gray-700 transition hover:text-gray-700/75" href="/aboutus"> About </a>
                     </li>
-
-                    <li>
-                        <a class="text-gray-700 transition hover:text-gray-700/75" href="/contactus"> Contact Us </a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
