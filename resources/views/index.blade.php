@@ -91,17 +91,17 @@
 
                         <!-- Card Body -->
                         <div class="p-8 text-gray-800 flex flex-col justify-center sm:w-1/2">
-                            <p class="text-xs uppercase text-gray-400 tracking-widest mb-2">Article</p>
+                            <p class="text-xs uppercase text-gray-400 tracking-widest mb-2">Blog Post</p>
                             <h3 class="text-xl font-normal text-gray-700 mb-4">{{Str::limit($blog->title, 25, '...') }}</h3>
                             <div class="w-8 h-px bg-gray-300 mb-4"></div>
 
                             <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                                {{Str::limit($blog->body, 80, '...')}}
+                                {{Str::limit($blog->body, 60, '...')}}
                             </p>
 
                             <!-- Read More Link -->
                             <a href="/posts/{{$blog->id}}" class="text-sm text-gray-700 font-normal tracking-wider uppercase hover:text-gray-900 transition duration-300 inline-flex items-center">
-                                Read Article
+                                Read Blog
                                 <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                 </svg>
