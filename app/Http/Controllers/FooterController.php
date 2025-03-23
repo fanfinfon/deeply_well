@@ -14,9 +14,9 @@ class FooterController extends Controller
         $attributes = request()->validate([
           'title'=>'required',
             'body'=>'required',
-            'phone'=> ['required',],
             'email'=> ['required','email'],
-            'address'=> ['required'],
+            'instagram'=> ['required'],
+          'facebook'=> ['required'],
         ]);
 
         footer::where('id',1)->update($attributes);
