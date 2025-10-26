@@ -45,4 +45,18 @@ class GeneralController extends Controller
         return view('login');
     }
 
+    public function onlineServices()
+    {
+        $footer = footer::find(1); // terms and conditions for footer
+        
+        return view('services.online', compact('footer'));
+    }
+
+    public function faceToFaceServices()
+    {
+        $footer = footer::find(1); // terms and conditions for footer
+        
+        return view('services.facetoface', compact('footer'));
+    }
+
 }

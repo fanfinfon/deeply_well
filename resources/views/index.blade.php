@@ -77,9 +77,87 @@
         </div>
     </div>
 
-    <div class="w-full h-px bg-gray-200"></div>
+     <div class="w-full h-px bg-gray-200"></div>
 
-    <div class="py-16 bg-gray-50">
+    <!-- Our Services Section -->
+<div id="services" class="py-16 bg-gray-50">
+    <h2 class="text-center text-3xl font-light text-gray-800 mb-16 tracking-wider uppercase">Advanced Healing Modalities</h2>
+
+    <div class="flex flex-wrap justify-center gap-8 max-w-7xl mx-auto px-6">
+       <!-- Service 1 -->
+<a href="/services/online" 
+   class="block w-full max-w-md bg-white shadow-sm rounded-sm overflow-hidden border border-gray-100 transition duration-300 hover:shadow-md hover:-translate-y-1">
+    <div class="flex flex-col sm:flex-row h-full">
+        <!-- Media Section -->
+        <div class="h-64 sm:h-auto sm:w-1/2 bg-cover bg-center" 
+             style="background-image: url('{{ asset('about/f1a6e4c58d25ae85f757e10dcdd54414.jpg') }}');">
+        </div>
+
+        <!-- Card Body -->
+        <div class="p-8 text-gray-800 flex flex-col justify-between sm:w-1/2 h-full">
+            <div>
+                <p class="text-xs uppercase text-gray-400 tracking-widest mb-2">Online Services</p>
+                <h3 class="text-xl font-normal text-gray-700 mb-4">Books and PDF's</h3>
+                <div class="w-8 h-px bg-gray-300 mb-4"></div>
+
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Online services that will change your life balance.
+                </p>
+            </div>
+
+            <!-- Learn More Link (always at bottom) -->
+            <div class="mt-6">
+                <span class="text-sm text-gray-700 font-normal tracking-wider uppercase inline-flex items-center group-hover:text-gray-900 transition duration-300">
+                    Learn More
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+
+               <!-- Service 2 -->
+<a href="/services/facetoface" 
+   class="block w-full max-w-md bg-white shadow-sm rounded-sm overflow-hidden border border-gray-100 transition duration-300 hover:shadow-md hover:-translate-y-1">
+    <div class="flex flex-col sm:flex-row h-full">
+        <!-- Media Section -->
+        <div class="h-64 sm:h-auto sm:w-1/2 bg-cover bg-center" 
+             style="background-image: url('{{ asset('about/4db45c2ae833ff717e16b1314979e879.jpg') }}');">
+        </div>
+
+        <!-- Card Body -->
+        <div class="p-8 text-gray-800 flex flex-col justify-between sm:w-1/2 h-full">
+            <div>
+                <p class="text-xs uppercase text-gray-400 tracking-widest mb-2">Face to Face Services</p>
+                <h3 class="text-xl font-normal text-gray-700 mb-4">Therapies</h3>
+                <div class="w-8 h-px bg-gray-300 mb-4"></div>
+
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    In person advanced healing therapies and technologies
+                </p>
+            </div>
+
+            <!-- Learn More Link (always at bottom) -->
+            <div class="mt-6">
+                <span class="text-sm text-gray-700 font-normal tracking-wider uppercase inline-flex items-center group-hover:text-gray-900 transition duration-300">
+                    Learn More
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+    <div class="py-16 w-full h-px bg-gray-200"></div>
+</div>
+    <div class="py-24 bg-gray-50">
         <h2 class="text-center text-3xl font-light text-gray-800 mb-16 tracking-wider uppercase">Latest Blogs</h2>
 
         <div class="flex flex-wrap justify-center gap-8 max-w-7xl mx-auto px-6">

@@ -6,6 +6,7 @@
         <nav>
             <li><a href="/posts">Blogs</a></li>
             <li><a href="/aboutus">About</a></li>
+            <li><a href="/#services">Services</a></li>
             @auth
                 <li><a href="/dashboard">Dashboard</a></li>
                 <li><a href="/profile">Profile</a></li>

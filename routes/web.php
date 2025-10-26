@@ -21,6 +21,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[GeneralController::class,'home'] )->name('home');
 Route::get('/aboutus', [GeneralController::class,'aboutus'] );
+Route::get('/services/online', [GeneralController::class,'onlineServices'] );
+Route::get('/services/facetoface', [GeneralController::class,'faceToFaceServices'] );
 
 
 //everty thing about posts

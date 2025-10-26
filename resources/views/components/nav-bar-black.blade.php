@@ -17,6 +17,7 @@
             <ul class="flex space-x-10">
                 <li><a href="/posts" class="text-gray-800 hover:text-black transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full">Blogs</a></li>
                 <li><a href="/aboutus" class="text-gray-800 hover:text-black transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full">About</a></li>
+                <li><a href="/#services" class="text-gray-800 hover:text-black transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full">Services</a></li>
 
                 <!-- Authenticated Links -->
                 @auth
@@ -37,6 +38,7 @@
             <ul class="flex flex-col p-8 border-t border-gray-100" style="font: normal 16px Raleway;">
                 <li class="py-3 border-b border-gray-50"><a href="/posts" class="block text-gray-800 hover:text-black transition duration-300">Blogs</a></li>
                 <li class="py-3 border-b border-gray-50"><a href="/aboutus" class="block text-gray-800 hover:text-black transition duration-300">About</a></li>
+                <li class="py-3 border-b border-gray-50"><a href="/#services" class="block text-gray-800 hover:text-black transition duration-300">Services</a></li>
 
                 <!-- Authenticated Links -->
                 @auth
