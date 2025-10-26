@@ -155,7 +155,7 @@
 
 
 
-    <div class="py-16 w-full h-px bg-gray-200"></div>
+    <div class="w-full h-px bg-gray-200"></div>
 </div>
     <div class="py-24 bg-gray-50">
         <h2 class="text-center text-3xl font-light text-gray-800 mb-16 tracking-wider uppercase">Latest Blogs</h2>
