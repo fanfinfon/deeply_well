@@ -27,8 +27,8 @@
                     </a>
                     
                     <p class="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
-                        Restore balance and harmony through advanced energy work and chakra alignment. 
-                        Experience deep healing at the energetic level with our skilled practitioners.
+                        Experience the future of wellness with Deeply Well’s advanced light and recovery therapies at Allure Spa, designed to restore balance and rejuvenate your body and mind.
+Discover relaxation, healing, and renewal through next-generation, non-invasive treatments that elevate your overall well-being.
                     </p>
                     
                     <div class="mt-4">
